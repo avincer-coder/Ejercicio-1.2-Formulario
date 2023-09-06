@@ -17,9 +17,7 @@
     flex-direction: column;
 }
 
-.buscador_y_btn{
-    display: flex;
-}
+.buscador_y_btn{display: flex;}
 
 .btn_search{
     all: initial;
@@ -56,10 +54,6 @@
     font-size: 75px;
 }
 
-.icon{
-    margin-left: 10px;
-}
+.icon{margin-left: 10px;}
 
-.tipo_letra{
-    font-family: 'Lato', sans-serif;
-}
+.tipo_letra{font-family: 'Lato', sans-serif;}
