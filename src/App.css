@@ -1,42 +1,65 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+.contenedor_general{
+    background-image: url(img/astronauta-perdido-en-el-espacio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buscador_y_btn{
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.btn_search{
+    all: initial;
+    background-color: rgb(210, 66, 223);
+    color: white;
+    width: 100px;
+    text-align: center;
 }
 
-.card {
-  padding: 2em;
+.btn_search:hover{
+    background-color: rgb(121, 10, 131);
+    cursor: pointer;
 }
 
-.read-the-docs {
-  color: #888;
+.inputext_location_icon{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input_text{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 400px;
+    height: 40px;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.title{
+    color: white;
+    font-size: 75px;
+}
+
+.icon{
+    margin-left: 10px;
+}
+
+.tipo_letra{
+    font-family: 'Lato', sans-serif;
 }
